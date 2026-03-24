@@ -1,4 +1,18 @@
+# Data Warehousing Notes
 
+## Topics Covered
+1. Data Warehouse
+2. Data Warehousing & ETL
+3. Data Warehouse Architecture
+4. Data Mart
+5. Star Schema
+6. Snowflake Schema
+7. Fact Constellation Schema
+8. Fact Table & Dimension Table
+9. OLAP Operations
+10. OLTP vs OLAP
+11. Data Cube
+12. Metadata
 
 # 1. What is a Data Warehouse?
 
