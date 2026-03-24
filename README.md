@@ -1147,4 +1147,27 @@ This information (column name, type, size) = **Metadata**
 
 ---
 
+## Exam Tips
+
+### 2 Marks
+- Define Data Warehouse
+- Define Metadata
+- Define Fact Table
+- Define Dimension Table
+- What is OLAP?
+
+### 5 Marks
+- Explain ETL Process
+- Explain OLTP vs OLAP
+- Explain Data Cube
+- Explain OLAP Operations
+- Explain Star Schema
+
+### 10 Marks
+- Explain Data Warehouse Architecture
+- Explain Star vs Snowflake Schema
+- Explain Fact Constellation Schema
+- Explain OLAP Operations with example
+- Explain Data Warehousing
+
 If you study all these topics, your **Data Warehousing  is complete**.
