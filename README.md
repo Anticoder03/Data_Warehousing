@@ -1171,3 +1171,121 @@ This information (column name, type, size) = **Metadata**
 - Explain Data Warehousing
 
 If you study all these topics, your **Data Warehousing  is complete**.
+
+# Data Warehousing – Final Revision Sheet
+
+## 1. Data Warehouse
+
+* Stores **historical data**
+* Used for **analysis & decision making**
+* Characteristics:
+
+  * Subject-Oriented
+  * Integrated
+  * Time-Variant
+  * Non-Volatile
+
+---
+
+## 2. ETL
+
+| Step      | Meaning      |
+| --------- | ------------ |
+| Extract   | Collect data |
+| Transform | Clean data   |
+| Load      | Store in DW  |
+
+---
+
+## 3. Three Tier Architecture
+
+| Tier   | Components         |
+| ------ | ------------------ |
+| Bottom | Data Sources + ETL |
+| Middle | OLAP Server        |
+| Top    | Reports, Dashboard |
+
+---
+
+## 4. Schemas
+
+| Schema        | Description                 |
+| ------------- | --------------------------- |
+| Star          | One fact + dimension tables |
+| Snowflake     | Normalized dimension tables |
+| Constellation | Multiple fact tables        |
+
+---
+
+## 5. Fact vs Dimension Table
+
+| Fact Table     | Dimension Table  |
+| -------------- | ---------------- |
+| Numerical data | Descriptive data |
+| Measures       | Attributes       |
+| Large          | Small            |
+
+---
+
+## 6. OLTP vs OLAP
+
+| OLTP                 | OLAP            |
+| -------------------- | --------------- |
+| Transactions         | Analysis        |
+| Current data         | Historical data |
+| Insert/Update/Delete | Read only       |
+| Normalized           | Denormalized    |
+
+---
+
+## 7. OLAP Operations
+
+| Operation  | Meaning             |
+| ---------- | ------------------- |
+| Roll-up    | Summary             |
+| Drill-down | Detail              |
+| Slice      | One dimension       |
+| Dice       | Multiple dimensions |
+| Pivot      | Rotate              |
+
+---
+
+## 8. Data Cube
+
+**Multidimensional data = Dimensions + Measure**
+
+Example:
+
+* Dimensions → Time, Product, Location
+* Measure → Sales
+
+---
+
+## 9. Metadata
+
+**Metadata = Data about Data**
+
+* Table name
+* Column name
+* Data type
+* Source
+* Last updated
+
+---
+
+# One Line Memory Trick (Very Useful)
+
+| Term           | Remember               |
+| -------------- | ---------------------- |
+| Data Warehouse | Historical data        |
+| ETL            | Extract Transform Load |
+| Star           | One fact               |
+| Snowflake      | Normalized             |
+| Constellation  | Multiple facts         |
+| OLTP           | Run business           |
+| OLAP           | Analyze business       |
+| Cube           | Multidimensional       |
+| Metadata       | Data about data        |
+
+---
+
